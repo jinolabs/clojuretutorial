@@ -1,6 +1,11 @@
-(ns clojuretutorial.core)
+(ns clojuretutorial.core
+  (:use compojure.core)
+  (:require [compojure.route :as  route]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn foo [x]
+  (str "Hello, " x))
+
+
+(defroutes my_routes
+  (GET "/" [] (foo "Jin"))
+  (route/resources "/"))
