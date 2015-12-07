@@ -8,17 +8,16 @@ After adding dependencies on project.clj, get dependencies:
 lein deps 
 </code></pre>
 
+## Usage
+
+To run web application.
 <pre><code>
 lein ring server 3000
 </code></pre>
 
-## Usage
-
-FIXME
-
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
