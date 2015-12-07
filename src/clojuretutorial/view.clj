@@ -7,4 +7,4 @@
 (defn index-page [x]
   (html5 [:html
           [:head]
-          [:body (str "He llo, " x)]]))
+          [:body (str "Hello, " x)]]))
