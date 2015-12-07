@@ -1,9 +1,10 @@
 (ns clojuretutorial.core
   (:use compojure.core)
-  (:require [compojure.route :as  route]))
+  (:require [compojure.route :as  route]
+            [clojuretutorial.view :as view]))
 
 (defn foo [x]
-  (str "Hello, " x))
+  (view/index-page x))
 
 
 (defroutes my_routes

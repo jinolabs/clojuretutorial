@@ -9,4 +9,5 @@
          :auto-refresh? false?}
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [ring/ring "1.4.0"]
+                 [hiccup "1.0.5"]
                  [compojure "1.4.0"]])
